@@ -10,7 +10,12 @@ client.on('ready',()=>{
 
 client.on('message', (message)=>{
     if(message.content.startsWith('.') && message.author.id != client.user.id) {
+        try {
         chatService.determineMessage(message);
+        } catch(err) {
+            console.log(err);
+            message.reply('something went wrong!');
+        }
     }
 });
 
