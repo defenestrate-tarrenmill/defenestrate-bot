@@ -1,0 +1,57 @@
+{
+    "name": "Cereuw",
+    "race": "Troll",
+    "class": "Shaman",
+    "active_spec_name": "Restoration",
+    "active_spec_role": "HEALING",
+    "gender": "female",
+    "faction": "horde",
+    "achievement_points": 15755,
+    "honorable_kills": 3244,
+    "thumbnail_url": "https://render-eu.worldofwarcraft.com/character/tarren-mill/102/97476966-avatar.jpg?alt=wow/static/images/2d/avatar/8-1.jpg",
+    "region": "eu",
+    "realm": "Tarren Mill",
+    "profile_url": "https://raider.io/characters/eu/tarren-mill/Cereuw",
+    "mythic_plus_ranks": {
+      "overall": {
+        "world": 1647637,
+        "region": 919112,
+        "realm": 24537
+      },
+      "dps": {
+        "world": 1492307,
+        "region": 826514,
+        "realm": 21845
+      },
+      "healer": {
+        "world": 454983,
+        "region": 251949,
+        "realm": 6454
+      },
+      "tank": {
+        "world": 0,
+        "region": 0,
+        "realm": 0
+      },
+      "class": {
+        "world": 129557,
+        "region": 72798,
+        "realm": 1984
+      },
+      "class_dps": {
+        "world": 112820,
+        "region": 63343,
+        "realm": 1753
+      },
+      "class_healer": {
+        "world": 77158,
+        "region": 42483,
+        "realm": 1105
+      },
+      "class_tank": {
+        "world": 0,
+        "region": 0,
+        "realm": 0
+      }
+    }
+  }
