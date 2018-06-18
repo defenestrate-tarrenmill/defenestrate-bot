@@ -14,7 +14,10 @@
     "dependencies": {
         "discord.js": "11.3.2",
         "express": "^4.16.3",
-        "request": "^2.87.0"
+        "faceapp": "^0.4.4",
+        "imgur-uploader": "^4.2.1",
+        "request": "^2.87.0",
+        "superagent": "^3.8.3"
     },
     "main": "index.js"
 }
