@@ -23,7 +23,8 @@ class ChatService {
         } else if(msg.content.startsWith('.help')){
             this.raiderIO.sendHelpToChat(msg);
             msg.channel.send('.affix - this weeks m+ affixes!');
-            msg.channel.send(".image <smile, heisenberg, female, female_2, hipster, hitman> <url>: e.g. .img hipster http://static4.uk.businessinsider.com/image/5a09a2c1dba1f555008b4ea7-1190-625/all-the-times-boris-johnson-called-for-britain-to-stay-in-the-single-market.jpg")
+            msg.channel.send(".image <smile, heisenberg, female, female_2, hipster, hitman> <url>: e.g. .img hipster http://static4.uk.businessinsider.com/image/5a09a2c1dba1f555008b4ea7-1190-625/all-the-times-boris-johnson-called-for-britain-to-stay-in-the-single-market.jpg");
+            msg.channel.send('.gdpr - see my gdpr compliance statement!');
         } else if(msg.content.startsWith('.img')) {
             this.imageService.processMessage(msg);
         }
